@@ -1,0 +1,33 @@
+{
+  "name": "querygpt",
+  "version": "1.0.0",
+  "description": "QnA with OpenAI GPT models on Personal / Business data using Embeddings and Completion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsensei/QueryGPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsensei/QueryGPT/issues"
+  },
+  "homepage": "https://github.com/tsensei/QueryGPT#readme",
+  "dependencies": {
+    "@types/node": "^18.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^3.3.0",
+    "pdf-parse": "^1.1.1",
+    "socket.io": "^4.7.2",
+    "view-engine": "^1.1.1"
+  }
+}
